@@ -1,7 +1,7 @@
+import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import './todo.css';
 import TodoField from './todoField/todo-field';
-import { useState } from 'react';
 const TodoList = () => {
     const [newTodo, setNewTodo] = useState('');
 
